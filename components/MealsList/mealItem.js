@@ -1,7 +1,7 @@
 import { StackRouter } from "@react-navigation/native";
 import { Text, View, Pressable, Image, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import MealDetails from "./mealDetails";
+import MealDetails from "../mealDetails";
 
 const MealItem = ({
   id,
